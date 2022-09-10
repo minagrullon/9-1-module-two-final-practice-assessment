@@ -86,9 +86,9 @@ The first option should be blank, with no `value` and no text. Create using HTML
 
 ### Info about Person
 
-This content should change each time the user chooses a new option in the dropdown list.
+- This content should change each time the user chooses a new option in the dropdown list.
 
-When a person is selected through one of the options from the dropdown list, the user should see a:
+  When a person is selected through one of the options from the dropdown list, the user should see a:
 
 An `h4` with the person's name in the info section of the page. (e.g. Name: Isis)
 A `p` with the person's age. (e.g. Age: 22)
@@ -112,8 +112,8 @@ This content should change each time the user choose a new option in the dropdow
 
 ### Reset Shoutouts
 
-A button with an `id` of `reset-shoutouts`, when clicked should remove all the shoutouts that are listed.
+- A button with an `id` of `reset-shoutouts`, when clicked should remove all the shoutouts that are listed.
 
 ### Commit history
 
-Make sure to commit often after specific features are complete. Use sensible commit messages.
+- Make sure to commit often after specific features are complete. Use sensible commit messages.
