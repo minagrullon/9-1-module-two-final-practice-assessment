@@ -78,7 +78,7 @@ Your html page should include the following: (pay attention to the hierarchy)
 
 ### Select Menu
 
-&nbsp; The people's names should be populated into `option` elements from a call to the API inside the select menu.
+The people's names should be populated into `option` elements from a call to the API inside the select menu.
 
 `option` elements should have a `value `of the person's `name` and the text should be the person's `name`.
 
@@ -86,7 +86,7 @@ The first option should be blank, with no `value` and no text. Create using HTML
 
 ### Info about Person
 
-&nbsp; This content should change each time the user chooses a new option in the dropdown list.
+This content should change each time the user chooses a new option in the dropdown list.
 
 When a person is selected through one of the options from the dropdown list, the user should see a:
 
@@ -99,7 +99,7 @@ This content should change each time the user choose a new option in the dropdow
 
 ### Add Shoutouts
 
-&nbsp; When the user enters their shoutout into the text input and presses the "Submit" button, they should see:
+When the user enters their shoutout into the text input and presses the "Submit" button, they should see:
 
 - [ ] The shoutout should be an `li` inside of a `ul` element, with the name of the person in a `strong` element with a colon followed by the text of the shoutout in plain text afterwards.
 - [ ] The `li` should not have a dot next to it
@@ -112,8 +112,8 @@ This content should change each time the user choose a new option in the dropdow
 
 ### Reset Shoutouts
 
-&nbsp; A button with an `id` of `reset-shoutouts`, when clicked should remove all the shoutouts that are listed.
+A button with an `id` of `reset-shoutouts`, when clicked should remove all the shoutouts that are listed.
 
 ### Commit history
 
-&nbsp; Make sure to commit often after specific features are complete. Use sensible commit messages.
+Make sure to commit often after specific features are complete. Use sensible commit messages.
