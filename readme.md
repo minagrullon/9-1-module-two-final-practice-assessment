@@ -78,7 +78,7 @@ Your html page should include the following: (pay attention to the hierarchy)
 
 ### Select Menu
 
-The people's names should be populated into `option` elements from a call to the API inside the select menu.
+&nbsp; The people's names should be populated into `option` elements from a call to the API inside the select menu.
 
 `option` elements should have a `value `of the person's `name` and the text should be the person's `name`.
 
@@ -86,9 +86,9 @@ The first option should be blank, with no `value` and no text. Create using HTML
 
 ### Info about Person
 
-- This content should change each time the user chooses a new option in the dropdown list.
+&nbsp; This content should change each time the user chooses a new option in the dropdown list.
 
-  When a person is selected through one of the options from the dropdown list, the user should see a:
+When a person is selected through one of the options from the dropdown list, the user should see a:
 
 An `h4` with the person's name in the info section of the page. (e.g. Name: Isis)
 A `p` with the person's age. (e.g. Age: 22)
@@ -99,11 +99,11 @@ This content should change each time the user choose a new option in the dropdow
 
 ### Add Shoutouts
 
-- When the user enters their shoutout into the text input and presses the "Submit" button, they should see:
+&nbsp; When the user enters their shoutout into the text input and presses the "Submit" button, they should see:
 
-  - [ ] The shoutout should be an `li` inside of a `ul` element, with the name of the person in a `strong` element with a colon followed by the text of the shoutout in plain text afterwards.
-  - [ ] The `li` should not have a dot next to it
-  - [ ] The shoutout text should be cleared from the text input when the `Submit` button is clicked.
+- [ ] The shoutout should be an `li` inside of a `ul` element, with the name of the person in a `strong` element with a colon followed by the text of the shoutout in plain text afterwards.
+- [ ] The `li` should not have a dot next to it
+- [ ] The shoutout text should be cleared from the text input when the `Submit` button is clicked.
 
 - [ ] If the user selects a different dropdown option after making the shoutout, all of the shoutouts should persist. (i.e. stay on the page)
 
@@ -112,8 +112,8 @@ This content should change each time the user choose a new option in the dropdow
 
 ### Reset Shoutouts
 
-- A button with an `id` of `reset-shoutouts`, when clicked should remove all the shoutouts that are listed.
+&nbsp; A button with an `id` of `reset-shoutouts`, when clicked should remove all the shoutouts that are listed.
 
 ### Commit history
 
-- Make sure to commit often after specific features are complete. Use sensible commit messages.
+&nbsp; Make sure to commit often after specific features are complete. Use sensible commit messages.
