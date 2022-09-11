@@ -65,7 +65,7 @@ Your html page should include the following: (pay attention to the hierarchy)
       - [ ] `option` blank, no value. Remaining `option`s will be populated later with the people's names from the API
   - [ ] `hr` centered and only takes up 50% of the width of the screen
   - [ ] `section`
-    - [ ] `h2`: `Add a Shoutout`
+    - [ ] `h4`: `Add a Shoutout`, should be italicized using CSS
     - [ ] `form`
       - [ ] `label`, `for` = `shoutout`: `Your shoutout`
       - [ ] `input`, `id` = `shoutout`: type = `text`
@@ -107,12 +107,14 @@ When the user enters their shoutout into the text input and presses the "Submit"
 
 - [ ] If the user selects a different dropdown option after making the shoutout, all of the shoutouts should persist. (i.e. stay on the page)
 
-- [ ] If the submit button is clicked and there is no person chosen in the `Select Person` input box, user should be alerted to `Please choose a person`
-- [ ] If the submit button is clicked and there is nothing in the `shoutout` input box, user should be alerted, `Please enter a shoutout for <person's name here>`
+- [ ] If the submit button is clicked and there is no person chosen in the `Select Person`, a message should appear on the DOM saying, `Please Select a Person`. The font should be red and 13 pixels.
+- [ ] When a person is selected in the option input, if there is a red message beneath the `Select Person` box, it should disappear .
+- [ ] If the submit button is clicked and there is nothing in the `shoutout` input box, user should be alerted, `Please add a shoutout for <person's name here>`. The font should be red and 13 pixels.
+- [ ] If there is an error under the input box and a user types in the input box, the error should disappear.
 
 ### Reset Shoutouts
 
-A button with an `id` of `reset-shoutouts`, when clicked should remove all the shoutouts that are listed.
+A button with an `id` of `reset-shoutouts`, when clicked should remove all the shoutouts that are listed. Button text should be, `Remove Shoutouts`
 
 ### Commit history
 
