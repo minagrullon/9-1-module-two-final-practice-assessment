@@ -47,7 +47,7 @@ Your html page should include the following: (pay attention to the hierarchy)
   - [ ] margin and padding should be set to `0`
   - [ ] Box-sizing should be set to `border-box`
 
-- `header`
+- [ ] `header`
 
   - [ ] `header` should have a height of 150 pixels
   - [ ] `header`: takes up 100% of the page's width
