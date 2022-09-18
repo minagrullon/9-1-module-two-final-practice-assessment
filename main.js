@@ -4,6 +4,7 @@ const info = document.querySelector("#info");
 const form = document.querySelector("form");
 const ul = document.querySelector("ul");
 const shoutout = document.querySelector("#shoutout");
+const main = document.querySelector("main");
 
 const URL = "https://ghibliapi.herokuapp.com/people";
 let peopleData;
@@ -30,24 +31,21 @@ fetch(URL)
 // });
 
 select.addEventListener("change", (e) => {
-  console.log(peopleData);
+  info.innerHTML = "";
+
   const fetchyData = peopleData.find((people) => people.name === select.value);
-  console.log(fetchyData);
 
   const infoH4 = document.createElement("h4");
   infoH4.innerText = fetchyData.name;
 
   const pAge = document.createElement("p");
   pAge.innerHTML = `<b>Age:</b> ${fetchyData.age}`;
-  console.log(pAge);
 
   const pEye = document.createElement("p");
   pEye.innerHTML = `<b>Eye Color:</b> ${fetchyData.eye_color}`;
-  console.log(pEye);
 
   const pHair = document.createElement("p");
   pHair.innerHTML = `<b>Hair Color:</b> ${fetchyData.hair_color}`;
-  console.log(pHair);
 
   info.append(infoH4, pAge, pEye, pHair);
 });
@@ -79,6 +77,16 @@ form.addEventListener("submit", (e) => {
   li.innerHTML = `<strong>${select.value}:</strong> ${shoutout.value}`;
   ul.append(li);
   form.reset();
+});
+
+const button = document.createElement("button");
+button.setAttribute("id", "reset-shoutouts");
+button.innerHTML = "Remove Shoutouts";
+button.backgroundColor = "white";
+button.borderRadius = "9px";
+main.append(button);
+button.addEventListener("click", () => {
+  ul.innerHTML = "";
 });
 
 //   fetch(`${URL}/${select.value}`)
@@ -125,9 +133,3 @@ form.addEventListener("submit", (e) => {
 //     })
 //     .catch((err) => console.log(err));
 // });
-
-// const button = document.createElement("button");
-// button.setAttribute("id", "reset-shoutouts");
-// button.innerHTML = "Remove Shoutouts";
-// button.backgroundColor = "white";
-// button.borderRadius

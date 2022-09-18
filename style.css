@@ -33,3 +33,7 @@ hr {
 h4 {
   font-style: italic;
 }
+
+li {
+  list-style: none;
+}
